@@ -6,7 +6,7 @@ Merge sort (O(n log n)) vs. bubble sort (O(n^2))
 
     algoplot -o merge-vs-bubble.png 'x * log(x)' 'x^2'
 
-![merge sort vs. bubble sort plot](doc/merge-vs-bubble.png)
+![merge sort vs. bubble sort plot](https://github.com/jmdeldin/algoplot/raw/master/doc/merge-vs-bubble.png)
 
 ## Usage
 
@@ -31,6 +31,7 @@ You may need to prefix it with `sudo` depending on your setup.
 ## Author
 
 Jon-Michael Deldin <dev@jmdeldin.com>
+
 https://github.com/jmdeldin/algoplot
 
 Feedback and patches are welcome!
