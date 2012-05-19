@@ -1,0 +1,10 @@
+#! /usr/bin/env ruby
+#
+# Run `algoplot -h` for usage.
+#
+
+require_relative '../lib/algoplot/options'
+
+opts = AlgoPlot::Options.new(ARGV).options
+
+AlgoPlot::plot(opts[:n], opts[:functions], opts[:output])
