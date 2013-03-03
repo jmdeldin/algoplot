@@ -4,7 +4,7 @@
 
 Merge sort (O(n log n)) vs. bubble sort (O(n^2))
 
-    algoplot -o merge-vs-bubble.png 'x * log(x)' 'x^2'
+    algoplot -o merge-vs-bubble.png 'x * log(x)' 'x**2'
 
 ![merge sort vs. bubble sort plot](https://github.com/jmdeldin/algoplot/raw/master/doc/merge-vs-bubble.png)
 
