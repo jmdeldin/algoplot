@@ -18,7 +18,8 @@ Merge sort (O(n log n)) vs. bubble sort (O(n^2))
 You need
 
 - [Gnuplot](http://www.gnuplot.info) installed with the `gnuplot` command
-  available on your `$PATH`
+  available on your `$PATH`. Ensure you have `gnuplot-x11` installed for
+  Debian/Ubuntu in order to plot non-ASCII graphics.
 - [Ruby](http://ruby-lang.org) (only tested with 1.9.3)
 
 Once you have the prerequisites installed, simply run the following command
